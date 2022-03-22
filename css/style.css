@@ -1,0 +1,124 @@
+body{
+    text-align: center;
+}
+
+/* Nav Bar  */
+
+#title {
+    background-color: #ff4c68;
+    padding-bottom: 7%;
+}
+
+/* heading  */
+
+.head-text {
+    color:#fff;
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 60px;
+    text-align: left;
+    margin-top: 7%;
+    line-height: 1.5;
+}
+
+.iphone-img {
+    height: 600px;
+    transform: rotate(20deg);
+    position: absolute;
+}
+.iphone{
+    text-align: left;
+}
+
+@media (max-width: 1000px){
+    .iphone-img {
+        height: 600px;
+        transform: rotate(0);
+        padding: 7%;
+        position: static;
+
+    }
+    .iphone{
+        text-align: center;
+    }
+    .container-text {
+        text-align: center;
+    }
+    
+}
+
+
+.btn-margin {
+    margin: 10px 15px;
+}
+
+.icon-margin {
+    margin-right: 10px;
+}
+
+/* Testimonial Section */
+
+
+h3 {
+    font-family:Montserrat ;
+    font-weight: 800;
+    padding: 15px;
+}
+
+.testimonial {
+    padding: 7% 5%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.test-icon {
+    color: #ef8172;
+    padding: 7% 15%;
+}
+.test-icon:hover {
+    color: #ff4c68;
+    padding: 7% 15%;
+}
+
+
+
+/* Carousel */
+
+#carousel {
+    background-color:#ef8172;
+}
+
+h2 {
+    font-family:Montserrat;
+    color: #fff;
+    font-weight: 900;
+    font-size: 3rem;
+    padding: 5% 15%;
+}
+
+h5{
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 3px;
+    
+}
+
+.img-adjust{
+    border-radius: 100%;
+    width:100px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.carousel-brand {
+    width: 200px;
+    padding: 20px 50px;
+}
+
+/* Pricing */
+
+.pricing {
+    color: black;
+    font-weight: 750;
+}
+
