@@ -143,9 +143,27 @@ h5{
     color: black;
     font-family: Montserrat;
     font-weight: 750;
-    padding-top: 20px;
+    padding-top: 50px;
     text-align: left;
     font-size: 3rem
+}
+.price-para {
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+
+.btn-width {
+    width: 100%;
+}
+
+
+.row {
+    padding-bottom: 50px;
+}
+
+.price-stack {
+    padding: 20px;
 }
 
 
