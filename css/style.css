@@ -2,6 +2,10 @@ body{
     text-align: center;
 }
 
+p{
+    color: grey;
+    font-family: Ubuntu;
+}
 /* Nav Bar  */
 
 #title {
@@ -9,6 +13,14 @@ body{
     padding-bottom: 7%;
 }
 
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.navbar-nav {
+    text-align: left;
+}
 /* heading  */
 
 .head-text {
@@ -41,8 +53,17 @@ body{
     .iphone{
         text-align: center;
     }
-    .container-text {
+    /* .container-text {
         text-align: center;
+    } */
+    .head-text {
+        color:#fff;
+        font-family: Montserrat;
+        font-weight: 900;
+        font-size: 60px;
+        text-align: center;
+        margin-top: 7%;
+        line-height: 1.5;
     }
     
 }
@@ -88,12 +109,13 @@ h3 {
     background-color:#ef8172;
 }
 
-h2 {
-    font-family:Montserrat;
+.carousel-h {
+    font-family: Montserrat;
     color: #fff;
-    font-weight: 900;
-    font-size: 3rem;
+    font-weight: 700;
+    font-size: 2.5rem;
     padding: 5% 15%;
+    line-height: 1.5;
 }
 
 h5{
@@ -117,8 +139,37 @@ h5{
 
 /* Pricing */
 
-.pricing {
+.price-head {
     color: black;
+    font-family: Montserrat;
     font-weight: 750;
+    padding-top: 20px;
+    text-align: left;
+    font-size: 3rem
 }
 
+
+/* Download Section  */
+
+#download {
+    background-color: #ff4c68;
+    padding: 7% 15%;
+}
+
+.download-h {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: Montserrat;
+    padding-bottom: 15px;
+}
+
+
+/* Footer Section  */
+
+#footer {
+    padding: 50px;
+}
+.foot-icon{
+    padding: 30px 10px;
+}
